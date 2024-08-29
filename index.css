@@ -1,0 +1,158 @@
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(224, 224, 224);
+}
+
+header {
+    border: 1px solid black;
+}
+
+.header1 {
+    border: 1px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.header2 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 0, 50);
+}
+
+.header3 {
+    border: 1px solid orange;
+    background-color: white;
+}
+
+.header1 p {
+    font-size: 25px;
+    font-family: Helvetica;
+}
+
+.header1 p span {
+    font-size: 25px;
+    color: red;
+}
+
+.conteudo-1 {
+    width: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.conteudo-2 {
+    width: 100%;    
+    height: 40px;
+    border: 1px solid gray;
+}
+
+.conteudo-2 ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+
+.conteudo-2 ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.logo, .navigation-bar, .account, .addons {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.navigation-bar {
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo, .account {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addons {
+    width: 180px;
+    display: flex;
+}
+
+.shop, .like, .market {
+    border: 1px solid black;
+    height: 100%;
+    width: 60px;
+}
+
+.account {
+    margin-right: 30px;
+}
+
+.header3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.header3 ul li {
+    margin-right: 45px;
+    list-style-type: none;
+}
+
+.account p {
+    color: white;
+}
+
+.logo p {
+    color: white;
+    font-size: 30px;
+}
+
+.navigation-bar p {
+    margin-left: 10px;
+}
+
+#cep {
+    margin-right: 80px;
+}
+
+.barra {
+    border: 1px solid black;
+    height: 50px;
+    width: 90%;
+    background-color: rgb(248, 0, 50);
+    background-image: url("https://images-americanas.b2w.io/spacey/acom/2024/08/26/header-desk-1296x54-223381e4e57e.png");
+    margin-top: 8px;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.large-box {
+    border: 1px solid black;
+    height: 300px;
+    width: 92%;
+    margin-top: 20px;
+    background-image: url("https://images-americanas.b2w.io/spacey/acom/2024/08/23/03-mveis-geral-destaque_desk-55984c1c4623.png");
+}
